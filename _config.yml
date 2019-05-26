@@ -1,10 +1,10 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : 对白 - 阅读字幕从未如此简单                                         # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 1280969421                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
-appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+appstore_link                             : https://itunes.apple.com/cn/app/id1280969421                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
@@ -12,21 +12,21 @@ presskit_download_link                    :                                     
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_description                           : 阅读字幕从未如此简单
 
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+enable_smart_app_banner                   :                                           # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
+your_name                                 : Yuanle Qiu                                
+your_link                                 : http://ideaslab.cn
+your_city                                 : Shenzhen                                
+email_address                             : app@ideaslab.cn
 facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
+instagram_username                        : 
+twitter_username                          : 
+github_username                           : 
 youtube_username                          :
 
 
@@ -34,41 +34,41 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
+  - title                                 : 字幕解析
+    description                           : 对白是一款字幕阅读器，她可以将内容繁杂的 .srt 和 .ass 字幕文件解析成可读性非常高的文本，以帮助喜欢通过影视作品来学习英文的用户提高学习效率。
     fontawesome_icon_name                 : magic
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : 中英文合并
+    description                           : 有一些字幕文件虽然包含中文和英文对白，但内容并不是在同一行。例如，前面几百行是中文，后面几百行是英文。对白可以在解析过程中自动合并，让中英文对照出现。
+    fontawesome_icon_name                 : language
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title                                 : 无线上传
+    description                           : 对白支持通过 WiFi 将字幕文件上传到应用内以供解析阅读，管理文件非常方便。
+    fontawesome_icon_name                 : wifi
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
+  - title                                 : iCloud 同步
+    description                           : 对白支持 iCloud 同步字幕文件，只需在 Mac 上把字幕文件往 iCloud Drive 下的 Dialogue 目录一扔，文件就会自动同步到 iPhone 上。
     fontawesome_icon_name                 : sync
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
+  - title                                 : 单词查询和生词本
+    description                           : 在阅读过程中，如果遇到不认识的单词长按即可查询定义。这一设计免去了用户阅读期间不断在不同应用之间跳转的烦恼，提升了阅读体验。
+    fontawesome_icon_name                 : bookmark
   
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
+  - title                                 : 自定义上下文
+    description                           : 在设置中开启上下文选择器之后，在添加生词时会弹出一个上下文选择器，你可以通过它选择单词所在的上下文，这样可以保证单词例句是一个完整的句子，而不是句子的一部分。
+    fontawesome_icon_name                 : check
 
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+  - title                                 : 内容导出
+    description                           : 对白支持将字幕内容导出到 PDF 文件，而生词本则可以导出到 PDF 或者 CSV 文件。PDF 或者 CSV 文件可以直接在上传字幕的 Web 界面进行管理（下载、删除），也可以通过分享菜单拷贝、分享到其他 app 中使用。
+    fontawesome_icon_name                 : file-export
 
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
+  - title                                 : 快速滚动
+    description                           : 阅读页面滚动时会出现一个圆形按钮，拖动即可快速滚动。
+    fontawesome_icon_name                 : angle-double-down
 
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
+  - title                                 : 外部导入
+    description                           : 在其它应用内点击字幕文件，选择在其他应用中打开，然后在弹出菜单中选择对白即可将字幕文件导入到对白。
+    fontawesome_icon_name                 : file-import
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
