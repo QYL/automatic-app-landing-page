@@ -1,5 +1,5 @@
 #page title
-page_title                                : 对白 - 阅读字幕从未如此简单                                         # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 1280969421                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
